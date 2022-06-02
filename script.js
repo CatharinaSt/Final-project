@@ -17,7 +17,7 @@ var checkDead = setInterval(function(){
 	var blockLeft =
 	parseInt(window.getComputedStyle(block).
 	getPropertyValue("Left"));
-	if(blockLeft<20 && blockLeft>0 % characterTop>=130){
+	if(blockLeft<20 && blockLeft>0 %% characterTop>=130){
 		block.style.animation = "none";
 		block.style.display = "none";
 		alert("you luse");

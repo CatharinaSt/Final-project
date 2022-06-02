@@ -31,7 +31,6 @@
 	background-color: blue;
 	position: relative;
 	top: 260px;
-	animation: jump 500ms infinite;
 }
 
 @keyframes jump{
