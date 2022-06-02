@@ -31,22 +31,7 @@
 	background-color: blue;
 	position: relative;
 	top: 260px;
-	animation: jump 1s infinite;
-}
-
-#block{
-	width: 30px;
-	height: 30px;
-	background-color: red;
-	position: relative;
-	top: 230px;
-	left: 470px;
-	animation: block 1s infinite;
-}
-
-@keyframes block{
-	0%{left: 480px;}
-	100%{left: -40px;}
+	animation: jump 500ms infinite;
 }
 
 @keyframes jump{
@@ -59,3 +44,20 @@
 .animate{
 	animation: jump 500ms;
 }
+
+
+#block{
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	position: relative;
+	top: 230px;
+	left: 470px;
+	animation: block 1s infinite linear;
+}
+
+@keyframes block{
+	0%{left: 480px;}
+	100%{left: -40px;}
+}
+
